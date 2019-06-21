@@ -1,0 +1,207 @@
+.logo-docplanner{
+    width:280px;
+}
+.navbar{
+    padding:13px 180px ;
+    
+}
+.navbar-brand{
+    width:20%;
+}
+.bg-light{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.active{
+    color: #00b39b !important;
+}
+.nav-link{
+    color:#ababab
+}
+.lead-image{
+    display: flex;
+    justify-content: center;
+    padding: 30px
+}
+.sous-titre-marking{
+   font-size: 35px;
+   color: #00b39b;
+   display:flex;
+   justify-content: center; 
+}
+.lead-parag{
+    color: #747474;
+    font-size: 17px;
+    font-family: Helvetica;
+    display: flex;
+    margin:50px 160px ;
+}
+.lead-parag-text{
+    margin: auto;
+    padding: 2%;
+}
+.card-img-sm{
+    width: 100%;
+    margin-top: -10%;
+    position: relative;
+}
+
+.sm-5{
+    background-color:#00ccb1;
+    margin-left: 50px;
+}
+.sm-6{
+    background-color:#3d83df;
+    margin-right: 70px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 56%;
+}
+.img-sm{
+    margin-top:0px ;
+    margin-left:24%;
+    position:relative;
+
+}
+
+.card-title{
+    color: #747474;
+    font-size: 15px;
+}
+.card-text{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+.s-t-culture{
+    color:#00b39b;
+    font-size: 28px;
+    width:auto;
+    padding: auto;
+    font-family:Helvetica;
+}
+
+.my-col-12{
+    width:auto;
+    height:auto; 
+    padding:50px 0px;
+    padding-right:30px;
+ }  
+
+.container1{
+    display:flex;
+    justify-content: center;
+    flex-wrap: row;
+    height: 100%; 
+    padding: 0px 80px;   
+}
+
+.xmln{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+    padding-top: 50px; 
+}
+
+.logo-global{
+    fill: grey;
+}
+.logo-global:hover{
+    fill: #00b39b;
+}
+.world{
+   color: #00b39b;
+
+}
+
+.container2{
+    background-image: url("../DOC-PLANNER-LANDING-PAGE/bg.png");
+    background-repeat: no-repeat;
+    padding-bottom:40px; 
+
+}
+.card-flag{
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+}
+.image-card{
+    display:flex;
+    justify-content: center;
+    padding: 20px
+}
+.h-card{
+    font-size: 30px;
+    text-align: center;
+}
+.p-card{
+  color: #747474;
+  padding-top: 20px;
+}
+.ca{
+    text-align: center;
+    padding-top: 10px;
+}
+.bloq-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bolck-h-p{
+    padding-top: 50px; 
+}
+.c-f-a{
+    margin-top:30px;
+}
+.c-f-b{ 
+    margin-top:20px ;
+}
+.c-f-c{
+    margin-top:15px ;
+}
+.h-1{
+display: flex;
+justify-content: center; 
+color: #00b39b;
+margin-top: 80px;
+font-size: 30px;
+text-align: center;
+font-family: cursive;
+}
+
+.my-card-deck{
+   margin: 8%;
+   height: 0%;
+  }
+.p-2{
+    text-align: center;
+    color: #747474;
+    
+}
+ .col-sm-12 {
+ padding-right: 0px !important;
+ padding-left: 0% !important;
+}
+   
+.btn-small{
+    position: absolute;
+    left: 70%;
+    bottom:25px;
+}
+
+@media (min-width : 320px) and (max-width : 480px) {
+    .card-img-sm{
+        margin-left:37%;
+    }
+    .sm-5{
+        background: red;
+    }
+}
